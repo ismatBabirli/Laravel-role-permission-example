@@ -55,7 +55,7 @@ class PostController extends Controller
      * Display the specified resource.
      *
      * @param int $id
-     * @return Response
+     * @return JsonResponse
      */
     public function show($id)
     {
